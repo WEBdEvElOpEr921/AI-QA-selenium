@@ -538,8 +538,8 @@ def main():
         automation.setup_selenium(headless=False)
         
         # Run optimized test
-        initial_url = "https://demoqa.com/buttons"
-        task_description = "Test all button interactions - single click, double click, and right click buttons. Verify all interactions work properly."
+        initial_url = "https://www.naukri.com/"
+        task_description = "Search for 'Python Developer' jobs in 'Bangalore'. Apply location and experience filters if available."
         
         report = automation.run_test_optimized(initial_url, task_description)
         
